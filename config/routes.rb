@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'pages#index'
-  get '/', to: 'pages#index'
+  # Use pages#home instead of home#index
+  root 'pages#home'
 end

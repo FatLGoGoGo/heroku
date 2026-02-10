@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def index
-    render plain: "hello world"
+  def home
+    # This renders app/views/pages/home.html.erb
   end
 end
