@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def home
-    # This renders app/views/pages/home.html.erb
+    # This will render app/views/pages/home.html.erb
   end
 end
