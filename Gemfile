@@ -7,15 +7,15 @@ gem "rails", "~> 8.1.2"
 # Server
 gem "puma", "~> 6.4"
 
-# Heroku essentials
+# Heroku requirements
 gem "rails_stdout_logging"
 gem "bootsnap", require: false
 
-# PostgreSQL (works on Heroku and locally)
+# PostgreSQL for Heroku
 gem "pg", "~> 1.5"
 
 # Development
-group :development do
+group :development, :test do
   gem "debug"
-  gem "sqlite3", "~> 2.1"  # Optional for local dev
+  gem "sqlite3", "~> 2.1"
 end
