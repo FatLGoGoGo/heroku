@@ -7,8 +7,6 @@ Rails.application.configure do
   config.log_level = :info
   config.log_tags = [ :request_id ]
 
-  config.assets.compile = false
-
   config.i18n.fallbacks = [I18n.default_locale]
 
   config.log_formatter = ::Logger::Formatter.new
